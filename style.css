@@ -1,0 +1,300 @@
+@media (max-width: 700px) {
+    #header-img {
+        width: 250px !important;
+    }
+
+    .pricing-option {
+        width: 600px !important;
+    }
+}
+
+@font-face {
+    font-family: 'LuckiestGuyRegular';
+    src: url('controllers4u-luckiest-guy-regular.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-stretch: ultra-expanded;
+    line-height: 1.5;
+
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #d8cbcb;
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.nav-link,
+input[type="submit"],
+h1,
+h2,
+h3,
+.price,
+.buy-now-button {
+    font-family: 'LuckiestGuyRegular';
+    font-weight: lighter;
+}
+
+::placeholder {
+    color: #9E1624;
+}
+
+/**************************************************************************/
+
+header {
+    background-color: #000000;
+    border-bottom: 3px solid #ffffff;
+
+    padding: 20px;
+    min-width: 650px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-img {
+    width: 300px;
+    height: auto;
+}
+
+#nav-bar {
+    list-style: none;
+
+    margin: 0px 10px 0px 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.nav-link {
+    color: #9E1624;
+    text-decoration: none;
+
+    padding: 5px;
+}
+
+.nav-link:hover {
+    background-color: #9E1624;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.nav-link:active {
+    background-color: #000000;
+    color: #f1bb08;
+}
+
+/**************************************************************************/
+
+#form {
+    text-align: center;
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#big-logo {
+    width: 500px;
+    height: auto;
+
+    margin-bottom: 20px;
+}
+
+#email {
+    color: #9E1624;
+
+    padding-left: 5px;
+    width: 230px;
+    height: 25px;
+}
+
+#submit {
+    background-color: #9E1624;
+    color: #FFFFFF;
+    font-size: 25px;
+    
+    padding: 5px;
+}
+
+#submit:hover {
+    background-color: #FFFFFF;
+    color: #9E1624;
+    cursor: pointer;
+}
+
+#submit:active {
+    background-color: #000000;
+    color: #CCAC3F;
+}
+
+/**************************************************************************/
+
+#features {
+    text-align: center;
+
+    scroll-margin-top: 100px;
+    margin: auto;
+    max-width: 900px;
+}
+
+#features h2 {
+    margin-bottom: 15px;
+}
+
+#feature-container {
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feature {
+    border-bottom: 1px solid #AAABAF;
+    text-align: left;
+
+    max-width: 750px;
+    padding: 30px;
+
+    display: flex;
+    align-items: center;
+}
+
+.feature:last-of-type {
+    border: none;
+}
+
+.feature-img {
+    width: 100px;
+    height: auto;
+    margin-right: 30px;
+}
+
+/**************************************************************************/
+
+#video {
+    scroll-margin-top: 110px;
+    align-self: center;
+}
+
+/**************************************************************************/
+
+#pricing {
+    text-align: center;
+
+    scroll-margin-top: 100px;
+}
+
+#pricing h2 {
+    margin-bottom: 15px;
+}
+
+#controllers {
+    margin-top: 45px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.pricing-option {
+    border: 2px solid #000000;
+    background-color: #f3bfbf;
+
+    width: 350px;
+    height: 525px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pricing-option h3 {
+    background-color: #fbff00;
+    font-size: 22px;
+    padding: 5px;
+    width: 100%;
+}
+
+.controller-img {
+    width: 295px;
+    height: auto;
+    align-self: center;
+}
+
+.pricing-option p {
+    font-size: 12.5px;
+    padding: 10px;
+}
+
+.price {
+    font-size: 30px !important;
+}
+
+.buy-now-button {
+    background-color: #9E1624;
+    color: #FFFFFF;
+    font-size: 20px;
+
+    margin-bottom: 25px;
+    
+    padding: 5px;
+}
+
+.buy-now-button:hover {
+    background-color: #FFFFFF;
+    color: #9E1624;
+    cursor: pointer;
+}
+
+.buy-now-button:active {
+    background-color: #000000;
+    color: #CCAC3F;
+}
+
+/**************************************************************************/
+
+footer {
+    background-color: #ffffff;
+    border-top: 2px solid #000000;
+    font-weight: 100;
+    text-align: center;
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+    width: 100%;
+
+    bottom: 0;
+    left: 0;
+}
